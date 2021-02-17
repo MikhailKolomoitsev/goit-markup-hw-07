@@ -1,0 +1,23 @@
+//Utils
+@import "./utils/colors";
+@import "./utils/global";
+@import "./utils/fonts";
+@import "./utils/contacts";
+
+//Layouts
+@import "./layouts/header";
+@import "./layouts/global-body";
+@import "./layouts/offer";
+@import "./layouts/details";
+@import "./layouts/whatwedo";
+@import "./layouts/team";
+@import "./layouts/partners";
+@import "./layouts/footer";
+@import "./layouts/buttons-portfolio";
+@import "./layouts/cards-list";
+
+//Components
+@import "./components/social-list";
+@import "./components/footer-form";
+@import "./components/backdrop";
+@import "./components/three-headers";

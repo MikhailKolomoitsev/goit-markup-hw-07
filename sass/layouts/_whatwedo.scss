@@ -1,15 +1,16 @@
 .section-whatwedo {
   text-align: center;
-}
-.section-whatwedo-h2 {
-  margin-bottom: 50px;
-}
-.section-whatwedo-li {
-  display: flex;
-}
-.section-whatwedo-list {
-  padding: 0;
-  display: flex;
+
+  &-h2 {
+    margin-bottom: 50px;
+  }
+  &-li {
+    display: flex;
+  }
+  &-list {
+    padding: 0;
+    display: flex;
+  }
 }
 .img-whatwedo {
   position: relative;

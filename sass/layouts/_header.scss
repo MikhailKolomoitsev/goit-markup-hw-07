@@ -103,14 +103,14 @@
   list-style: none;
   width: auto;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.contactsnav a:focus,
-.contactsnav a:focus .contacts-item-svg,
-.contactsnav a:hover,
-.contactsnav a:hover .contacts-item-svg {
-  color: var(--fontblue-color);
-  fill: var(--fontblue-color);
+  & a:focus,
+  & a:focus .contacts-item-svg,
+  & a:hover,
+  & a:hover .contacts-item-svg {
+    color: var(--fontblue-color);
+    fill: var(--fontblue-color);
+  }
 }
 
 .contacts-item-svg {

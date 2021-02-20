@@ -1275,8 +1275,8 @@ footer .social-list-icon {
 
 .container {
   width: 1200px;
-  margin: auto;
-  padding-left: 15px;
-  padding-right: 15px;
+  margin: 0 auto;
+  /* padding-left: 15px; */
+  padding: 0 15px;
 }
 /*# sourceMappingURL=main.css.map */

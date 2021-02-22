@@ -1,5 +1,5 @@
 .footer {
-  background-color: var(--section-offer-color);
+  background-color: var(--section-offer);
   justify-content: flex-start;
 }
 
@@ -43,7 +43,7 @@
 
   letter-spacing: 0.03em;
 
-  color: var(--fontblue-color);
+  color: var(--items-decor);
 }
 
 footer a {
@@ -57,7 +57,7 @@ footer a:focus {
 .contacts-link[href*="https://goo.gl/"]:hover,
 .contacts-link[href*="https://goo.gl/"]:focus
 {
-  color: var(--fontblue-color);
+  color: var(--items-decor);
 }
 
 .title-links-footer {

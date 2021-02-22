@@ -25,7 +25,6 @@
   box-sizing: border-box;
   width: 370px;
   height: 404px;
-  margin: 30px 7px 0px 8px;
   border: 1px solid #eeeeee;
 
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -61,5 +60,5 @@
   letter-spacing: 0.03em;
   line-height: 40px;
   font-weight: lighter;
-  color: var(--fontgrey-color);
+  color: var(--font-description);
 }

@@ -12,13 +12,13 @@
 
 .partners-link:focus,
 .partners-link:hover {
-  border: 1px solid var(--fontblue-color);
+  border: 1px solid var(--items-decor);
   border-radius: 4px;
 }
 
 .partners-link:focus .partners-list-icon,
 .partners-link:hover .partners-list-icon {
-  fill: var(--fontblue-color);
+  fill: var(--items-decor);
 }
 
 .partners-link {

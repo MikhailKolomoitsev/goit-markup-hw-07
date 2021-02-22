@@ -44,7 +44,7 @@
 
     letter-spacing: 0.01em;
 
-    color: var(--fontgrey-color);
+    color: var(--font-description);
   }
 
   &-form-input-wrapper {
@@ -76,13 +76,13 @@
   height: 30px;
   border-radius: 50%;
   background-color: #fff;
-  border: 1px solid var(--fontgrey-color);
+  border: 1px solid var(--font-description);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   &:hover,
   &:focus {
     border: none;
-    background-color: var(--fontblue-color);
+    background-color: var(--items-decor);
     cursor: pointer;
   }
 
@@ -108,13 +108,13 @@
 }
 
 .modal-form-input:focus + .modal-form-icon {
-  fill: var(--fontblue-color);
+  fill: var(--items-decor);
 }
 
 .modal-form {
   &-input:focus {
     outline: none;
-    border-color: var(--fontblue-color);
+    border-color: var(--items-decor);
   }
 
   &-icon {
@@ -145,7 +145,7 @@
 
   &-message:focus {
     outline: none;
-    border-color: var(--fontblue-color);
+    border-color: var(--items-decor);
   }
 
   &-message::placeholder {
@@ -153,7 +153,7 @@
   }
 
   &-message:focus::placeholder {
-    color: var(--fontblue-color);
+    color: var(--items-decor);
   }
 
   &-label-policy::before {
@@ -194,7 +194,7 @@
 
   &-message:focus {
     outline: none;
-    border-color: var(--fontblue-color);
+    border-color: var(--items-decor);
   }
 
   &-message::placeholder {
@@ -202,7 +202,7 @@
   }
 
   &-message:focus::placeholder {
-    color: var(--fontblue-color);
+    color: var(--items-decor);
   }
 
   &-label-policy::before {
@@ -232,11 +232,11 @@
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
-    color: var(--fontgrey-color);
+    color: var(--font-description);
   }
 
   &-label-policy a {
-    color: var(--fontblue-color);
+    color: var(--items-decor);
   }
 
   &-btn {
@@ -252,7 +252,7 @@
     font-size: 16px;
     line-height: 30px;
     letter-spacing: 0.06em;
-    background-color: var(--fontblue-color);
+    background-color: var(--items-decor);
     color: #ffffff;
     cursor: pointer;
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);

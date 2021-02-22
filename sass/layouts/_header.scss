@@ -15,7 +15,7 @@
 .img-header {
   padding-top: 24px;
   padding-bottom: 24px;
-  margin-right: 94px;
+  margin-right: 93px;
   display: inline-block;
   color: #000000;
   font-family: Raleway;
@@ -27,7 +27,7 @@
   text-decoration: none;
 }
 .img-header-span {
-  color: var(--fontblue-color);
+  color: var(--items-decor);
   font-family: Raleway;
   font-style: normal;
   font-weight: bold;
@@ -55,7 +55,7 @@
 
 .header-nav-item::after {
   position: absolute;
-  background-color: var(--fontblue-color);
+  background-color: var(--items-decor);
   content: " ";
   bottom: -1px;
   left: 0;
@@ -72,7 +72,7 @@
 
 .header-nav-item:hover,
 .header-nav-item:focus {
-  color: var(--fontblue-color);
+  color: var(--items-decor);
 }
 
 .header-nav-item:hover::after,
@@ -81,7 +81,7 @@
 }
 
 .active {
-  color: var(--fontblue-color);
+  color: var(--items-decor);
 }
 
 .navbar-one-ul {
@@ -93,7 +93,7 @@
 }
 
 .studiobutton {
-  color: var(--fontblue-color);
+  color: var(--items-decor);
 }
 
 .contacts-nav {
@@ -108,15 +108,15 @@
   & a:focus .contacts-item-svg,
   & a:hover,
   & a:hover .contacts-item-svg {
-    color: var(--fontblue-color);
-    fill: var(--fontblue-color);
+    color: var(--items-decor);
+    fill: var(--items-decor);
   }
 }
 
 .contacts-item-svg {
-  margin-right: 6px;
+  margin-right: 4px;
   width: 16px;
   height: 12px;
-  fill: var(--fontgrey-color);
+  fill: var(--font-description);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }

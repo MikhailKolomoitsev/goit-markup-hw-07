@@ -8,7 +8,7 @@
   align-items: center;
   min-width: 270px;
   min-height: 120px;
-  background-color: var(--section-team-color);
+  background-color: var(--section-team);
 }
 
 .icon {
@@ -26,7 +26,7 @@
 }
 .section-details-ul-li-p {
   width: 270px;
-  color: #757575;
+  color: var(--font-description);
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;

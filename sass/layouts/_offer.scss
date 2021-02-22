@@ -21,8 +21,10 @@
   padding: 200px 0;
 }
 .section-offer-div {
+  display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 .section-offer-h2 {
   margin: auto;
@@ -41,14 +43,4 @@
 
 .img-section-offer {
   position: relative;
-}
-
-.section-offer-button {
-  width: 200px;
-  height: 50px;
-  background: var(--fontblue-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 5px;
-  border: 0;
-  cursor: pointer;
 }
